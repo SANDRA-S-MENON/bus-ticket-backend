@@ -6,7 +6,7 @@ const schema = mongoose.Schema(
         "address":String,
         "place":String,
         "to":String,
-        "from":String,
+        "from":String
     }
 )
 let busmodel = mongoose.model("buss",schema);
